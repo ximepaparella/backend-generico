@@ -1,0 +1,24 @@
+.hidden {
+    display:none;
+}
+
+.visible {
+    display:block;
+}
+
+.success {
+    color: $success;
+}
+
+.delete {
+    color: $delete;
+}
+
+
+.pending {
+    color: $secundario;
+}
+
+.primary {
+    color: $primario;
+}

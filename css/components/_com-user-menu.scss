@@ -1,0 +1,39 @@
+.com-user-menu {
+    border: 1px solid $border;
+    border-radius: 0 0 0.25rem 0.25rem;
+    padding: $px-10;
+    margin-top: $px-10;
+    @include boxshadow;
+
+    &:before {
+        content: "";
+        transform: rotate(45deg);
+        width: $px-12;
+        height: $px-12;
+        border-right: none;
+        border-top: 2px solid $border;
+        border-left: 2px solid $border;
+        border-radius: 0 0 6px 0;
+        border-bottom: none;
+        margin: -18px auto 0;
+        position: absolute;
+        background: $blanco;
+        right: $px-32;
+    }
+
+    ul {
+        li {
+            a {
+                color: $negro;
+                font-size: $px-14;
+                padding: $px-10 0;
+                display: block;
+
+                &:hover {
+                    color: $primario;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tours</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/site.css">
+
+    <!-- JS -->
+    <script src="../../js/site.js"></script>
+
+    <!-- Custom Icon Pack -->
+    <script src="https://kit.fontawesome.com/c259a594fc.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-sidebar">
+        <!--HEADER-->
+        <header class="mod-header aside">
+            <!-- SIDEBAR -->
+            <section class="mod-sidebar">
+                <div class="com-logo">
+                    <a href="#">
+                        <img src="../../img/logo.png" />
+                    </a>
+                </div>
+
+                <!-- MENU-->
+                <nav class="com-nav-container">
+                    <ul class="com-menu">
+                        <!-- SUBMENU WITHOUT CHILD-->
+                        <li class="com-nav-item">
+                            <a href="">
+                                <i class="fas fa-home"></i> Inicio</i>
+                            </a>
+                        </li>
+                        <!-- SUBMENU WITH CHILD -->
+                        <li class="com-nav-item --has-child">
+                            <a href="">
+                                <i class="fas fa-copy"></i> Reservas <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <ul class="com-menu-child hidden">
+                                <li>
+                                    <a href="#">Listado de Reservas </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Nueva Reserva </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Pedientes de Pago </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Canceladas </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- SUBMENU WITH CHILD -->
+                        <li class="com-nav-item --has-child active">
+                            <a href="">
+                                <i class="fas fa-map"></i> Tours <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="com-menu-child visible">
+                                <li>
+                                    <a href="#" class="active"> Listado de Tours </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Tours de Invierno </a>
+                                </li>
+
+                                <li>
+                                    <a href="#"> Tours de Verano </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Nuevo Tour </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- SUBMENU WITH CHILD -->
+                        <li class="com-nav-item --has-child">
+                            <a href="">
+                                <i class="fas fa-plus-circle"></i> Adicionales <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="com-menu-child hidden">
+                                <li>
+                                    <a href="#"> Listado de Adicionales </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Nuevo Adicional </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- SUBMENU WITH CHILD -->
+                        <li class="com-nav-item --has-child">
+                            <a href="">
+                                <i class="fas fa-briefcase"></i> Provee <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="com-menu-child hidden">
+                                <li>
+                                    <a href="#"> Listado de Provee </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Nuevo Provee </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- SUBMENU WITH CHILD -->
+                        <li class="com-nav-item --has-child">
+                            <a href="">
+                                <i class="fas fa-comments"></i> Testimonios <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="com-menu-child hidden">
+                                <li>
+                                    <a href="#"> Listado de Testimoniales </a>
+                                </li>
+                                <li>
+                                    <a href="#"> Nuevo Testimonial </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+                <!-- MENU-->
+            </section>
+            <!--SIDEBAR-->
+        </header>
+
+        <main class="main">
+            <!-- TOOLBAR -->
+            <section class="com-toolbar">
+                <section class="com-user">
+                    <a href=""><img src="https://api.adorable.io/avatars/53/abott@adorable.png"
+                            class="com-avatar" /></a>
+                    <div class="com-user-menu hidden">
+                        <ul class="hidden">
+                            <li><a href="">Perfil de usuario</a></li>
+                            <li><a href="">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <!-- TOOLBAR -->
+
+            <!-- MAIN CONTENT -->
+            <section class="col-12">
+
+                <div class="mod-card">
+                    <h4 class="com-card-title">Tours</h4>
+
+                    <table class="com-table">
+                        <thead>
+                            <tr>
+                                <th>Tour</th>
+                                <th>Temporada</th>
+                                <th>Valor p/ pasajero</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Lagos 4x4</th>
+                                <th>Verano</th>
+                                <th>$4.500</th>
+                                <th class="com-table-actions">
+                                    <div class="com-tooltip">
+                                        <a class="" href="" class="com-see-item"><i class="fas fa-eye"></i>
+                                            <span class="--text">Ver más</span>
+                                        </a>
+                                    </div>
+                                    <div class="com-tooltip">
+                                        <a href="" class="com-edit-item"><i class="far fa-edit"></i>
+                                            <span class="--text">Editar</span>
+                                        </a>
+                                    </div>
+                                    <div class="com-tooltip">
+                                        <a href="" class="com-delete-item"><i class="fas fa-trash"></i>
+                                            <span class="--text">Eliminar</span>
+                                        </a>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                    <th>Lagos 4x4</th>
+                                    <th>Invierno</th>
+                                    <th>$4.500</th>
+                                    <th class="com-table-actions">
+                                        <div class="com-tooltip">
+                                            <a class="" href="" class="com-see-item"><i class="fas fa-eye"></i>
+                                                <span class="--text">Ver más</span>
+                                            </a>
+                                        </div>
+                                        <div class="com-tooltip">
+                                            <a href="" class="com-edit-item"><i class="far fa-edit"></i>
+                                                <span class="--text">Editar</span>
+                                            </a>
+                                        </div>
+                                        <div class="com-tooltip">
+                                            <a href="" class="com-delete-item"><i class="fas fa-trash"></i>
+                                                <span class="--text">Eliminar</span>
+                                            </a>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                        <th>Lagos 4x4</th>
+                                        <th>Invierno</th>
+                                        <th>$4.500</th>
+                                        <th class="com-table-actions">
+                                            <div class="com-tooltip">
+                                                <a class="" href="" class="com-see-item"><i class="fas fa-eye"></i>
+                                                    <span class="--text">Ver más</span>
+                                                </a>
+                                            </div>
+                                            <div class="com-tooltip">
+                                                <a href="" class="com-edit-item"><i class="far fa-edit"></i>
+                                                    <span class="--text">Editar</span>
+                                                </a>
+                                            </div>
+                                            <div class="com-tooltip">
+                                                <a href="" class="com-delete-item"><i class="fas fa-trash"></i>
+                                                    <span class="--text">Eliminar</span>
+                                                </a>
+                                            </div>
+                                        </th>
+                                    </tr>
+                        </tbody>
+                    </table>
+
+                    <section class="com-table-footer">
+                        <div class="row col-12">
+                            <div class="col-6">
+                                <p class="com-results"> Mostrando 20 de 150 resultados</p>
+                            </div>
+                            <div class="col-6">
+                                <ul class="com-pagination">
+                                    <li class="page-item disabled">Anterior</li>
+                                    <li class="page-item active">1</li>
+                                    <li class="page-item">2</li>
+                                    <li class="page-item">3</li>
+                                    <li class="page-item">Siguiente</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </section>
+            <!-- MAIN CONTENT -->
+
+            <footer class="mod-footer">
+                <div class="com-copyright">
+                    <p> Copyright 2020 - Site Admin - Provided By Estudio Equis</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+
+</body>
+
+</html>

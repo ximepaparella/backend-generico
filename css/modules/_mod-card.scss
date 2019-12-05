@@ -1,0 +1,9 @@
+.mod-card {
+    border: 0;
+    margin: $px-15 0;
+    @include boxshadow;
+    border-radius: $px-4;
+    background-color:$blanco;
+    padding:$px-20;
+    width:98%
+}

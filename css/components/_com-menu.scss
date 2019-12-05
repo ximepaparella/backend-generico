@@ -1,0 +1,53 @@
+.com-menu {
+    color: $blanco;
+    margin-top: $px-30;
+
+    a {
+        color: $blanco;
+        font-size: $px-14;
+        color: $gris-claro;
+        font-weight: 500;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    i {
+        padding: 0 $px-5;
+
+        &.fa-chevron-down {
+            font-size: $px-12;
+        }
+    }
+
+    .com-nav-item {
+        padding: $px-10;
+    }
+
+    .com-menu-child {
+        margin-top: $px-10;
+
+        li {
+            a {
+                display: block;
+                font-weight: normal;
+                padding: $px-10 0 $px-10 $px-10;
+                border-bottom: 1px solid #868686;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                &.active {
+                    color: $blanco;
+                    background: $primario-hover;
+                }
+            }
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+}
