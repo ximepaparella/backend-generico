@@ -1,0 +1,13 @@
+.com-itinerario {
+    ul {
+        li {
+            display:flex;
+            flex-direction: row;
+
+            p {
+                margin-right:$px-20
+            }
+        }
+    }
+ 
+}

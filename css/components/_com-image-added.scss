@@ -1,0 +1,13 @@
+.com-image-added {
+    h4 {
+        margin:$px-10 0;
+        display:block;
+        font-weight: bold;
+        font-size:$px-15;
+    }
+
+    img {
+        border:3px solid $primario;
+        margin-right:$px-10;
+    }
+}

@@ -5,5 +5,12 @@
     border-radius: $px-4;
     background-color:$blanco;
     padding:$px-20;
-    width:98%
+    width:98%;
+
+    p {
+        color: $gris-medio;
+        font-size:$px-14;
+        font-family: $font-default;
+        padding:$px-10 0
+    }
 }

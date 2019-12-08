@@ -16,6 +16,7 @@
 @import 'modules/mod-footer';
 @import 'modules/mod-card';
 @import 'modules/mod-form';
+@import 'modules/mod-add-images';
 
 
 /********** COMPONENTS **********/
@@ -39,5 +40,9 @@
 @import 'components/com-textarea';
 @import 'components/com-label';
 @import 'components/com-button';
+
+@import 'components/com-itinerario';
+
+@import 'components/com-image-added';
 
 @import 'components/com-copyright';

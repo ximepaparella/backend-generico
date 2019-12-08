@@ -183,6 +183,14 @@ a {
   color: #24384d;
 }
 
+.separator {
+  display: block;
+}
+
+.separator.m-30 {
+  margin: 1.875em 0;
+}
+
 /********** LAYOUTS **********/
 .w-100 {
   width: calc(100% + 20px) !important;
@@ -1298,12 +1306,29 @@ a {
   width: 98%;
 }
 
+.mod-card p {
+  color: #575a5f;
+  font-size: 0.875em;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.625em 0;
+}
+
 .mod-form fieldset {
   margin-bottom: 0.9375em;
 }
 
 .mod-card .mod-form {
   margin-top: 1.25em;
+}
+
+.mod-add-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 /********** COMPONENTS **********/
@@ -1713,6 +1738,32 @@ a {
 
 .com-button i {
   margin-right: 0.3125em;
+}
+
+.com-itinerario ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.com-itinerario ul li p {
+  margin-right: 1.25em;
+}
+
+.com-image-added h4 {
+  margin: 0.625em 0;
+  display: block;
+  font-weight: bold;
+  font-size: 0.9375em;
+}
+
+.com-image-added img {
+  border: 3px solid #24384d;
+  margin-right: 0.625em;
 }
 
 .com-copyright {

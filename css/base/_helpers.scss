@@ -22,3 +22,11 @@
 .primary {
     color: $primario;
 }
+
+.separator {
+    display:block;
+    
+    &.m-30 {
+        margin:$px-30 0
+    }
+}

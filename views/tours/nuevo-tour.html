@@ -156,78 +156,129 @@
             <!-- TOOLBAR -->
 
             <!-- MAIN CONTENT -->
-            <section class="col-6">
-                <h1 class="com-page-title">Añadir Nuevo Tour</h1>
-                <section class="row col-12">
-                    <div class="mod-card">
-                        <h4 class="com-card-title --small">Información del Tour</h4>
-                        <form class="mod-form">
-                            <fieldset>
-                                <label class="com-label"> Nombre</label>
-                                <input type="text" class="com-input --text">
-                            </fieldset>
-                            <fieldset>
-                                <label class="com-label"> Valor</label>
-                                <input type="number" class="com-input --number">
-                            </fieldset>
-                            <fieldset>
-                                <label class="com-label"> Descripción del Tour</label>
-                                <textarea class="com-textarea"> </textarea>
-                            </fieldset>
-                            <fieldset>
-                                <label class="com-label"> Adicionales</label>
-                                <select name="select" multiple="multiple" class="com-input --select">
+            <div class="row">
+                <section class="col-6">
+                    <h1 class="com-page-title">Añadir Nuevo Tour</h1>
+                    <section class="row col-12">
+                        <div class="mod-card">
+                            <h4 class="com-card-title --small">Información del Tour</h4>
+                            <form class="mod-form">
+                                <fieldset>
+                                    <label class="com-label"> Duración del Tour</label>
+                                    <input type="text" class="com-input --text">
+                                </fieldset>
+                                <fieldset>
+                                    <label class="com-label"> Nombre</label>
+                                    <input type="text" class="com-input --text">
+                                </fieldset>
+                                <fieldset>
+                                    <label class="com-label"> Tipo de actividad</label>
+                                    <input type="text" class="com-input --text">
+                                </fieldset>
+                                <fieldset>
+                                    <label class="com-label"> Valor Adultos</label>
+                                    <input type="number" class="com-input --number">
+                                </fieldset>
+                                <fieldset>
+                                    <label class="com-label"> Valor Niños</label>
+                                    <input type="number" class="com-input --number">
+                                </fieldset>
+                                <fieldset>
+                                    <label class="com-label"> Descripción del Tour</label>
+                                    <textarea class="com-textarea"> </textarea>
+                                </fieldset>
+                                <fieldset>
 
-                                    <option value="">7 Horas</option>
-                                    <option value="">1-20 Personas</option>
-                                    <option value="" selected>Almuerzo Incluído</option>
-                                    <option value="">No se suspende por lluvia</option>
-                                </select>
-                            </fieldset>
-                        </form>
-                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </section>
                 </section>
 
                 <section class="col-6">
-                        <h1 class="com-page-title">Añadir Imágenes</h1>
-                        <section class="row col-12">
-                            <div class="mod-card">
-                                <h4 class="com-card-title --small">Información del Tour</h4>
-                                <form class="mod-form">
-                                    <fieldset>
-                                        <label class="com-label"> Nombre</label>
-                                        <input type="text" class="com-input --text">
-                                    </fieldset>
-                                    <fieldset>
-                                        <label class="com-label"> Valor</label>
-                                        <input type="number" class="com-input --number">
-                                    </fieldset>
-                                    <fieldset>
-                                        <label class="com-label"> Descripción del Tour</label>
-                                        <textarea class="com-textarea"> </textarea>
-                                    </fieldset>
-                                    <fieldset>
-                                        <label class="com-label"> Adicionales</label>
-                                        <select name="select" multiple="multiple" class="com-input --select">
-        
-                                            <option value="">7 Horas</option>
-                                            <option value="">1-20 Personas</option>
-                                            <option value="" selected>Almuerzo Incluído</option>
-                                            <option value="">No se suspende por lluvia</option>
-                                        </select>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </section>                
+                    <h1 class="com-page-title">Seleccionar Fechas</h1>
+                    <section class="row col-12">
+                        <div class="mod-card">
+                            <h4 class="com-card-title --small">Seleccionar Fechas</h4>
+                            <form class="mod-form">
+                                calendario? datepicker? horarios?
+                                como te parece mejor?
 
-            </section>
+                                </fieldset>
+                            </form>
+                        </div>
+
+                        <div class="mod-card">
+                            <h4 class="com-card-title --small">Añadir Actividades</h4>
+                            <p> Ir agregando cada paso del itinerario en forma independiente</p>
+                            <form class="mod-form">
+                                <fieldset>
+                                    <input type="text" class="com-input --text">
+                                    <button class="com-button --save"> Añadir </button>
+                                </fieldset>
+
+                                <div class="separator m-30"></div>
+
+                                <h4 class="com-card-title --small">Itinerario</h4>
+                                <div class="com-itinerario">
+                                    <ul>
+                                        <li>
+                                            <p>Paseo por el lago escondido</p>
+                                            <button class="com-button --cancel"> <i class="fas fa-trash"></i></button>
+                                        </li>
+                                        <li>
+                                            <p>Trekking en la vida</p>
+                                            <button class="com-button --cancel"> <i class="fas fa-trash"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+
+
+                        <div class="mod-card">
+                            <h4 class="com-card-title --small">Imagenes</h4>
+                            <p> Añadir las imagenes correspondientes para cada sección</p>
+
+                            <form class="mod-form">
+                                <fieldset>
+                                    <fieldset>
+                                        <label class="com-label"> Foto Destacada </label>
+                                        <input type="file" class="com-input --img">
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="com-label"> Foto Galería </label>
+                                        <input type="file" class="com-input --img">
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="com-label"> Foto Thumbnail </label>
+                                        <input type="file" class="com-input --img">
+                                    </fieldset>
+                                </fieldset>
+                            </form>
+                            <div class="separator m-30"></div>
+
+                            <h4 class="com-card-title --small">IMAGENES SELECCIONADAS</h4>
+                            <div class="mod-add-images">
+                                <div class="com-image-added">
+                                    <h4> Destacada</h4>
+                                    <img src="https://source.unsplash.com/100x100/?nature,water" />
+                                </div>
+                                <div class="com-image-added">
+                                    <h4> Galería</h4>
+                                    <img src="https://source.unsplash.com/100x100/?nature,water" />
+                                </div>
+                                <div class="com-image-added">
+                                        <h4> Thumbnail</h4>
+                                    <img src="https://source.unsplash.com/100x100/?nature,water" />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
             <!-- MAIN CONTENT -->
 
-            <footer class="mod-footer">
-                <div class="com-copyright">
-                    <p> Copyright 2020 - Site Admin - Provided By Estudio Equis</p>
-                </div>
-            </footer>
         </main>
     </div>
 
