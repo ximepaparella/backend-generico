@@ -1449,6 +1449,10 @@ a {
   font-family: "Sulphur Point", sans-serif;
 }
 
+.com-card-title.--small {
+  font-size: 1.125rem;
+}
+
 .com-table {
   margin: 1.875em 0;
   width: 100%;
